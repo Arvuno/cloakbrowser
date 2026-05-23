@@ -23,7 +23,7 @@
 <h3 align="center">Stealth Chromium that passes every bot detection test.</h3>
 
 <table><tr><td>
-Not a patched config. Not a JS injection. A real Chromium binary with fingerprints modified at the C++ source level. Antibot systems score it as a normal browser — because it <em>is</em> a normal browser.
+Not a patched config. Not a JS injection. A real Chromium binary with fingerprints modified at the C++ source level (58 patches). Antibot systems score it as a normal browser — because it <em>is</em> a normal browser.
 </td></tr></table>
 
 <br>
