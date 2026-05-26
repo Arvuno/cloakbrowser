@@ -1212,4 +1212,5 @@ Issues and PRs welcome. If something isn't working, [open an issue](https://gith
 - [@Seryiza](https://github.com/Seryiza) — Nix/NixOS flake
 - [@245678000000](https://github.com/245678000000) — package-lock sync
 - [@honor2030](https://github.com/honor2030) — cloakserve WebSocket origin guard, composable JS launch helpers
-- [@0xlally](https://github.com/0xlally) — security reports (cloakserve path traversal, WebSocket origin bypass)
+## Contributing
+PRs welcome!
