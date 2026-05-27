@@ -161,7 +161,7 @@ console.log(binaryInfo());
 // Force re-download
 clearCache();
 
-// Manually check for newer Chromium version
+// Mannually check for newer Chromium version
 const newVersion = await checkForUpdate();
 if (newVersion) console.log(`Updated to ${newVersion}`);
 ```

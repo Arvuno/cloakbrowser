@@ -420,7 +420,7 @@ def binary_info() -> dict:
 # ---------------------------------------------------------------------------
 
 def check_for_update() -> str | None:
-    """Manually check for a newer Chromium version. Returns new version or None.
+    """Mannually check for a newer Chromium version. Returns new version or None.
 
     This is the public API for triggering an update check. Unlike the
     background check in ensure_binary(), this blocks until complete.

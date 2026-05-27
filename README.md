@@ -652,7 +652,7 @@ sudo apt install -y fonts-noto-color-emoji fonts-freefont-ttf fonts-unifont \
     fonts-ipafont-gothic fonts-wqy-zenhei fonts-tlwg-loma-otf
 ```
 
-The Docker image (`cloakhq/cloakbrowser`) ships with these pre-installed. If you run the binary directly on a Linux server or in a custom Docker image, install them manually.
+The Docker image (`cloakhq/cloakbrowser`) ships with these pre-installed. If you run the binary directly on a Linux server or in a custom Docker image, install them mannually.
 
 **Optional: Windows fonts for CreepJS font enumeration.** The packages above fix anti-bot canvas checks but won't improve your CreepJS font score. For that, you need actual Windows fonts (Segoe UI, Calibri, Bahnschrift, etc.) from a Windows machine's `C:\Windows\Fonts\` directory — `ttf-mscorefonts-installer` only has old XP-era fonts and isn't enough.
 
@@ -660,7 +660,7 @@ The Docker image (`cloakhq/cloakbrowser`) ships with these pre-installed. If you
 mkdir -p ~/.local/share/fonts/windows
 cp /path/to/windows/fonts/*.ttf ~/.local/share/fonts/windows/
 cp /path/to/windows/fonts/*.TTF ~/.local/share/fonts/windows/
-fc-cache -f  # mandatory for manually copied fonts
+fc-cache -f  # mandatory for mannually copied fonts
 ```
 
 ```python
@@ -1082,7 +1082,7 @@ playwright install-deps chromium
 
 ### macOS: Blocked on some sites that pass on Linux
 
-The macOS fingerprint profile has known inconsistencies that aggressive bot detection catches. If a site blocks you on macOS but works on Linux, switch to a Windows fingerprint profile by passing `stealth_args=False` and manually setting `--fingerprint-platform=windows` with matching GPU flags (see [Fingerprint Management](#fingerprint-management) for the full flag list).
+The macOS fingerprint profile has known inconsistencies that aggressive bot detection catches. If a site blocks you on macOS but works on Linux, switch to a Windows fingerprint profile by passing `stealth_args=False` and mannually setting `--fingerprint-platform=windows` with matching GPU flags (see [Fingerprint Management](#fingerprint-management) for the full flag list).
 
 ---
 
