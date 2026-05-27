@@ -1,29 +1,22 @@
 ---
-name: Bug Report
-about: Report a bug or detection issue
+name: Bug report
+about: Create a report to help us improve
+title: ''
 labels: bug
+assignees: ''
+
 ---
 
-Description: <!-- What happened? What did you expect? -->
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-CloakBrowser version: <!-- pip show cloakbrowser / npm list cloakbrowser -->
+**To Reproduce**
+Steps to reproduce the behavior:
+1. 
+2. 
 
-Wrapper: <!-- Python or JavaScript -->
+**Expected behavior**
+A clear description of what you expected to happen.
 
-Environment: <!-- OS, Docker y/n, base image, architecture -->
-
-Launch options:
-
-
-Tested with a different IP or proxy? <!-- Yes (same result) / Yes (works with different IP) / No -->
-
-Works outside Docker / on host machine? <!-- Yes / No / Not using Docker -->
-
-Steps to reproduce:
-
-
-Error output / screenshots:
-
-Dockerfile (if applicable):
-
-Additional notes:
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
