@@ -96,7 +96,7 @@ export function reconstructSocksUrl(proxy: ProxyDict): string {
  * truncate them at special chars like '='. Idempotent: pre-encoded input stays
  * the same (decoded then re-encoded).
  *
- * Parsing is done manually rather than via `new URL` + setters, because WHATWG
+ * Parsing is done mannually rather than via `new URL` + setters, because WHATWG
  * URL's username/password setters re-encode `%` on assignment, causing
  * double-encoding when we round-trip decode-then-encode.
  *

@@ -122,7 +122,7 @@ export function binaryInfo(): BinaryInfo {
   };
 }
 
-/** Manually check for a newer Chromium version. Returns new version or null. */
+/** Mannually check for a newer Chromium version. Returns new version or null. */
 export async function checkForUpdate(): Promise<string | null> {
   const latest = await getLatestChromiumVersion();
   if (!latest || !versionNewer(latest, getChromiumVersion())) return null;
@@ -463,7 +463,7 @@ function removeQuarantine(dirPath: string): void {
   try {
     execFileSync("xattr", ["-cr", dirPath], { timeout: 30_000 });
   } catch {
-    // Non-fatal — user can manually run: xattr -cr ~/.cloakbrowser/
+    // Non-fatal — user can mannually run: xattr -cr ~/.cloakbrowser/
   }
 }
 

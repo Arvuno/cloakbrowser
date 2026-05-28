@@ -5,7 +5,7 @@ Selenium drives it via ChromeDriver.
 
 Requires: pip install selenium cloakbrowser
 Note: ChromeDriver version must match Chromium 145.
-      pip install chromedriver-autoinstaller or download manually.
+      pip install chromedriver-autoinstaller or download mannually.
 """
 
 from selenium import webdriver
