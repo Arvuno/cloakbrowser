@@ -29,3 +29,6 @@ Please be respectful and constructive in all interactions. We follow the [Contri
 
 By contributing, you agree that your contributions will be licensed under the same license as the project.
 
+
+## Contributors
+- Documentation improvements (2026)
